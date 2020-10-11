@@ -31,3 +31,6 @@ Text book: Introductory Econometrics: A Modern Approach, 7th edition.
    - Same cross-sectional units are followed over a given time period, can also be treated as a pooled cross section, where members happen to show up in each point in time
    - Multiple observations on the same units allows us to control for certain unobserved characteristics of members
    - Allow us to study the importance of lags in behavior or the result of decision making
+
+#### Other
+ - **ceteris paribus**: other (relevant) factors being equal
