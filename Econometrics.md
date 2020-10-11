@@ -13,13 +13,13 @@ Text book: Introductory Econometrics: A Modern Approach, 7th edition.
 #### How do perform empirical economic analysis
  1. **Construct a economic model**: consists of mathematical equations that describe various relationships
  2. **Turn the economic model into a econometric model**
-   - The betas describe the directions and strengths of the relationshiop between the two variables.
-   - Dealing with the error term or disturbance term is perhaps the most important component of any econometrics analysis.
+    - The betas describe the directions and strengths of the relationshiop between the two variables.
+    - Dealing with the error term or disturbance term is perhaps the most important component of any econometrics analysis.
 
 #### Data Structure
  - **Cross-Sectional Data**: A sample of individuals, households, firms, cities, states, countries, or a variety of other units, taken at a given point in time.
-   - Often assume it is obtained by random sampling
-   - Be careful when random sampling might be violated by, say, dependent draws
+    - Often assume it is obtained by random sampling  
+    - Be careful when random sampling might be violated by, say, dependent draws  
  - **Time Series Data**: Observations on a variable or several variables over time.
    - More difficult to analyze than cross-sectional data: 
      - Economic observations can rarely be assumed to be independent across time.
