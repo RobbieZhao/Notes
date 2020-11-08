@@ -18,9 +18,8 @@
      - new variant => new objects
    - these tradeoffs are the fundamental differences between datatype-oriented programming and object-oriented programming
 
-### [Learning Functional Programming with JavaScript - Anjana Vakil - JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY)
-Rules of functional programming:
-
+### Some rules of functional programming
+ - [Learning Functional Programming with JavaScript - Anjana Vakil - JSUnconf](https://www.youtube.com/watch?v=e-5obm1G_FY)
  - Express everything as functions: takes an input and gives an output
  - Avoid side effects: use pure functions
  - Don't iterate. Use map, reduce, and filter.
