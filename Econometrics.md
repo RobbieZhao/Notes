@@ -2,7 +2,7 @@
 
 Text book: Introductory Econometrics: A Modern Approach, 7th edition.
 
-## Chapter 1
+## Chapter 1 The Nature of Econometrics and Economic Data
 
 
 #### Data
@@ -34,3 +34,71 @@ Text book: Introductory Econometrics: A Modern Approach, 7th edition.
 
 #### Other
  - **ceteris paribus**: other (relevant) factors being equal
+
+# Part 1 Regression Analysis with Cross-sectional Data
+
+## Chapter 2 The Simple Regression Model 
+
+### 2.1 Definition of the simple regression model
+
+#### 1. The model
+
+We want to explain y in terms of x or study how y varies with changes in x.
+
+The simple linear regression model (aka two-variable linear regression model, or bivariate linear regression model) is defined by:
+
+> y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x + &mu;
+
+#### 2. Terms
+
+ -  x and y
+
+	|          Y         |           X          |
+	|:------------------:|:--------------------:|
+	| Dependent variable | Independent variable |
+	| Explained variable | Explanatory variable |
+	|  Response variable |   Control variable   |
+	| Predicted variable |  predictor variable  |
+	|     Regressand     |       Regressor      |
+	
+ - &beta;<sub>0</sub>: slope parameter  
+ - &beta;<sub>1</sub>: intercept parameter, or constant term
+ - &mu; the error term of disturbance: factors other than x that affect y. Or. the unsystematic part, i.e. the part of y not explained by x
+ - &beta;<sub>0</sub> + &beta;<sub>1</sub>x: systematic part of y, i.e. part of y explained by x
+
+
+#### 3. Assumptions  
+
+1. WLOS, assume E(&mu;) = 0, as long as intercept is included in the equation. 
+2. &mu; is **mean independent of** x: E(&mu;|x) = E(&mu;)
+
+=> the **zero conditional mean assumption**: E(&mu;|x) = 0
+
+Taking expectation conditional on x on both sides of y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x + &mu;
+
+=> **population regression function**: E(y|x) = &beta;<sub>0</sub> + &beta;<sub>1</sub>x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
