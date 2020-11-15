@@ -78,13 +78,36 @@ Taking expectation conditional on x on both sides of y = &beta;<sub>0</sub> + &b
 
 => **population regression function**: E(y|x) = &beta;<sub>0</sub> + &beta;<sub>1</sub>x
 
+### 2.2 Deriving the Ordinary Least Squares Estimates
 
+#### Method I
 
+Step 1: Based on two assumptions:
 
+ - E(&mu;) = 0
+ - E(&mu;|x) = E(&mu;)
+   - This implies zero covariance between &mu; and x. (see [proof](https://math.stackexchange.com/questions/967641/prove-that-mean-independent-random-variables-are-uncorrelated))
+   - so, Cov(&mu;, x) = E(&mu;x) - E(&mu;)E(x) = E(&mu;x) = 0
 
+Step 2: From E(&mu;) = 0 & E(&mu;x) = 0:
 
+ - E(&mu;) = 0 => E(y - &beta;<sub>0</sub> - &beta;<sub>1</sub>x) = 0
+ - E(&mu;x) = 0 => E[x(y - &beta;<sub>0</sub> - &beta;<sub>1</sub>x)] = 0
 
+Step 3: Replacing expectation with averages, and solve for &beta;<sub>0</sub>
+ and &beta;<sub>1</sub>
+ 
+#### Method II
 
+To minimize the sum of squared residuals. Take the derivative of SSR w.r.t. &beta;<sub>0</sub> and &beta;<sub>1</sub>, get the **first order conditions** for OLS estimates
+
+#### Comments on the estimates: 
+
+ - The estimates are called the ordinary least squares estimates
+ - The equation is called **sample regression function (SRF)**
+ - &beta;<sub>1</sub> is just a scaled version of &rho;<sub>xy</sub>. In effect, simple regression is an analysis of correlation between two variables
+ - If the estimates intercept is negative but y should always be position, it could be that the sample size near origin is too small, thus it's no surprising that the regression line does poorly at low values of x.
+ - We run the regression of y on x, or regress y on x.
 
 
 
