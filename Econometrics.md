@@ -113,7 +113,7 @@ To minimize the sum of squared residuals. Take the derivative of SSR w.r.t. &bet
 
 From E(&mu;) = 0
 
- - => The sum of the residuals is 0
+ - The sum of the residuals is 0 => y̅ = ŷ-bar
  - The point (x̅, y̅) is always on the OLS regression line.
 
 From E(&mu;x) = 0
