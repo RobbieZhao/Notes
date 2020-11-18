@@ -18,3 +18,7 @@
 #### The audience
  - Your are writing for yourself.
  - First, work hard to master the tools. Simplify, prune and strive for order. Then, express who you are. Relax and say what you want to say.
+
+#### Words
+ - Writing is learned by imitation .If anyone asked me how I learned to write, I'd say I learned by reading the men and women who were doing the kind of writing I wanted to do and trying to figure out how they did it. But cultivate the best models. Don't assume that because an article is in a newspaper or a magazine it must be good.
+ - Also bear in mind, when you're choosing words and stringing them together, how they sound. This may seem absurd: readers read with their eyes. But in fact they hear what they are reading far more than you realize. Therefore such matters as rhythm and alliteration are vital to every sentence.
