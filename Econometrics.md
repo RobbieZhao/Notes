@@ -128,7 +128,11 @@ Goodness of fit
  - R<sup>2</sup> = &rho;<sub>y, ŷ</sub><sup>2</sup>
  - Seemingly low R-squared does not necessary mean that an OLS regression equation is useless. 
 
+### 2.4 Units of Measurement and Functional Form
 
+ - Changing units of x and y changes estimates in expected ways, and doesn't changed R<sup>2</sup>.
+ - In the log-level model, 100&beta;<sub>1</sub> is called semi-elasticity of y w.r.t. x; In the log-log model, &beta;<sub>1</sub> is the elasticity of y w.r.t. x
+ - Linear means the equation is linear in the parameters &beta;<sub>0</sub> and &beta;<sub>1</sub>.
 
 
 
