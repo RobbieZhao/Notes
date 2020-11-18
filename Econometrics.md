@@ -109,6 +109,25 @@ To minimize the sum of squared residuals. Take the derivative of SSR w.r.t. &bet
  - If the estimates intercept is negative but y should always be position, it could be that the sample size near origin is too small, thus it's no surprising that the regression line does poorly at low values of x.
  - We run the regression of y on x, or regress y on x.
 
+### 2.3 Properties of OLS on Any Sample of Data
+
+From E(&mu;) = 0
+
+ - => The sum of the residuals is 0
+ - The point (x̅, y̅) is always on the OLS regression line.
+
+From E(&mu;x) = 0
+
+ - The sample covariance between x and residuals is 0.
+ - Sample covariance between ŷ and residual is 0
+
+Goodness of fit
+
+ - Total sum of squares (SST); explained sum of squares (SSE); residual sum of squares (SSR): SST = SSE + SSR. 
+ - R<sup>2</sup> = SSE/SST, assuming SST != 0
+ - R<sup>2</sup> = &rho;<sub>y, ŷ</sub><sup>2</sup>
+ - Seemingly low R-squared does not necessary mean that an OLS regression equation is useless. 
+
 
 
 
