@@ -22,3 +22,12 @@
 #### Words
  - Writing is learned by imitation .If anyone asked me how I learned to write, I'd say I learned by reading the men and women who were doing the kind of writing I wanted to do and trying to figure out how they did it. But cultivate the best models. Don't assume that because an article is in a newspaper or a magazine it must be good.
  - Also bear in mind, when you're choosing words and stringing them together, how they sound. This may seem absurd: readers read with their eyes. But in fact they hear what they are reading far more than you realize. Therefore such matters as rhythm and alliteration are vital to every sentence.
+
+#### Unity
+ - You learn to write by writing. It's a truism, but what makes it a truism is that it's true. The only way to learn to write is to force yourself to produce a certain number of words in a regular basis.
+ - Choose from among the many variables and stick to your choice.
+   - One choice is unity of pronoun.
+   - Unity of tense is another choice.
+   - Another choice is unity of mood.
+ - Think small. Decide what corner of your subject you're going to bite off, and be content to cover it well and stop.
+ - As for what point you want to make, every successful piece of nonfiction should leave the reader with one provocative thought that he or she didn't have before. Not two thoughts, or five—just one.
