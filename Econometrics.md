@@ -151,7 +151,7 @@ Goodness of fit
  
  - The sample outcomes on x (i.e. x<sub>1</sub>, x<sub>1</sub>, ...) are not all the same value
 
-#####SLR 4 Zero Condit ional Mean
+##### SLR 4 Zero Condit ional Mean
 
  - E(&mu;|x) = 0
  - This is equivalent to E(&mu;|x) = E(&mu;) & E(&mu;) = 0
@@ -181,7 +181,10 @@ It's often useful to write SLR 4 & 5 as:
  - E(SSR/(n-2)) = &sigma;<sup>2</sup>
  - sqrt(SSR/(n-2)) is called the standard error of the regression (SER), which is not an unbiased estimator of &sigma;, but an consistent estimator of &sigma;
 
+### 2.6 Regression through the Origin and Regression on a Constant
 
+ - Regression through the origin is not done very often because if the intercept is not 0, then the estimator for &beta;<sub>1</sub> is biased.
+ - What if we set the slope to zero and estimate an intercept only? Then the intercept is y̅. The constant that produces the smallest sum of squared deviations is always the sample average.
 
 
 
