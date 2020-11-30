@@ -134,6 +134,52 @@ Goodness of fit
  - In the log-level model, 100&beta;<sub>1</sub> is called semi-elasticity of y w.r.t. x; In the log-log model, &beta;<sub>1</sub> is the elasticity of y w.r.t. x
  - Linear means the equation is linear in the parameters &beta;<sub>0</sub> and &beta;<sub>1</sub>.
 
+### 2.5 Expected Values and Variances of the OLS Estimators (statistical properties of OLS)
+
+##### SLR 1 Linear in parameters
+
+ - y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x + &mu;
+ - y, x, &mu; are random variables
+ - &beta;<sub>0</sub> and &beta;<sub>1</sub> are not random variables. They're fixed values that we don't know.
+
+##### SLR 2 Random sampling
+
+ - We have a random sample of size n.
+ - To write y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x + &mu; in terms of the random sample as: y<sub>i</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub>x<sub>i</sub> + &mu;<sub>i</sub>
+
+##### SLR 3 Sample variation in the Explanatory Variable
+ 
+ - The sample outcomes on x (i.e. x<sub>1</sub>, x<sub>1</sub>, ...) are not all the same value
+
+#####SLR 4 Zero Condit ional Mean
+
+ - E(&mu;|x) = 0
+ - This is equivalent to E(&mu;|x) = E(&mu;) & E(&mu;) = 0
+ - For a random sample, this implies E(&mu;<sub>i</sub>|x<sub>i</sub>) = 0 (&mu;<sub>i</sub> is r.v., x<sub>i</sub> is not)
+
+##### Theorem: using SLR 1—4, we can prove the OLS estimates of &beta;<sub>0</sub> and &beta;<sub>1</sub> are unbiased
+
+##### SLR 5 Homoskedasticity
+
+ - Var(&mu;|x) = &sigma;<sup>2</sup>
+ - We can derive: Var(&mu;) = &sigma;<sup>2</sup>, so &sigma;<sup>2</sup> is often called the error variance or disturbance variance.
+
+It's often useful to write SLR 4 & 5 as:
+ 
+ - E(y|x) = &beta;<sub>0</sub> + &beta;<sub>1</sub>x
+ - Var(y|x) = &sigma;<sup>2</sup>
+
+![](https://robertdkirkby.github.io/introtoeconometrics/Topic6_Heteroskedasticity/Material/Topic6_Fig1.png)
+
+##### Theorem: sample variances of OLS estimates
+
+ - &beta;<sub>1</sub>-hat: &sigma;<sup>2</sup> / SST<sub>x</sub> 
+ - &beta;<sub>0</sub>-hat: &sigma;<sup>2</sup> * sum of x<sub>i</sub><sup>2</sup> / (n * SST<sub>x</sub>)
+
+##### Theorem: unbiased estimation of &sigma;<sup>2</sup>
+
+ - E(SSR/(n-2)) = &sigma;<sup>2</sup>
+ - sqrt(SSR/(n-2)) is called the standard error of the regression (SER), which is not an unbiased estimator of &sigma;, but an consistent estimator of &sigma;
 
 
 
