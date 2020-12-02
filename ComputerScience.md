@@ -25,3 +25,9 @@
  - Don't iterate. Use map, reduce, and filter.
  - Avoid mutation: persistent data structures for efficient immutability.
 
+### Matplotlib: plt v.s. ax
+ - [What Are the “plt” and “ax” in Matplotlib Exactly?](https://towardsdatascience.com/what-are-the-plt-and-ax-in-matplotlib-exactly-d2cf4bf164a9)
+ - ![](https://miro.medium.com/max/1338/1*zxvxtqmcl9rFVj5yN4pNjA.png)
+ - If you only want to draw one graph, both are acceptable; If you want to draw multiple graphs, then you almost certainly want to use `ax`.
+ - `plt` creates a `figure` object and an `axes` object inside `figure` object. 
+ - `plt.subplots()` returns the `figure` object and the `axes` object so that we could do more things to them.
