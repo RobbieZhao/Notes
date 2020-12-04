@@ -186,7 +186,13 @@ It's often useful to write SLR 4 & 5 as:
  - Regression through the origin is not done very often because if the intercept is not 0, then the estimator for &beta;<sub>1</sub> is biased.
  - What if we set the slope to zero and estimate an intercept only? Then the intercept is y̅. The constant that produces the smallest sum of squared deviations is always the sample average.
 
+### 2.7 Regression on a Binary Explanatory Variable
 
+ - x is called a binary variable or dummy variable if x takes on only two values, zero and one.
+   - 𝛽̂<sub>0</sub> = y̅<sub>0</sub>
+   - 𝛽̂<sub>1</sub> = y̅<sub>1</sub> - y̅<sub>0</sub>
+ - Small R<sup>2</sup> only means the variance in the unobservables, Var(&mu;), is large relative to Var(y)
+ - Random sampling means that the data we obtain are independent, identically distributed draws from the population distribution represented by the random variables x and y.
 
 
 
