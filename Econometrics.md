@@ -194,11 +194,68 @@ It's often useful to write SLR 4 & 5 as:
  - Small R<sup>2</sup> only means the variance in the unobservables, Var(&mu;), is large relative to Var(y)
  - Random sampling means that the data we obtain are independent, identically distributed draws from the population distribution represented by the random variables x and y.
 
+### Summary
 
+Problem: There are two random variables: X and Y. We wan't to know how X affects Y. (this is not the same as causality).
 
+#### Step 1: Establish a model
 
+ - Assume a linear (in parameters) relationship: Y = &beta;<sub>0</sub> + &beta;<sub>1</sub>X + U
+ - We think that there's a lot of other stuff affecting Y, but we're only interested in X.
+ - This relationship might be wrong. We have various criteria to see if it's a good modeling of the relationship.
 
+#### Step 2: collect data
 
+ - Random sampling: this means the data are i.i.d. draws from the population
+ - Why do we need random sampling?
+   - Intuitively, to make the sample representative of the whole population
+   - Algebraically, to prove unbiasedness we need independence of Us
+ - How does the process work?
+   - Think of each individual as an experiment: (X<sub>i</sub>, Y<sub>i</sub>), each experiment are independent and all have the same distribution.
+   - Do the experiment n times, and we have the data (x<sub>i</sub>, y<sub>i</sub>)
+   - x<sub>i</sub> can't be all the same. If it is, all the data points are on a vertical line, there's no way you could get good estimates. If they turn out to be the same, you might want to do more experiments.
+
+#### Step 3: Run the model through data
+
+ - Assume: E(U|X) = 0, which is the equivalent as the following:
+   - E(U) = 0. If it's not 0, then we can always redefine U and &beta;<sub>0</sub> to make it 0
+   - E(U|X) = E(U). This is stronger than uncorrelation and weaker than independence.
+     - We need the "idea" that U and X are uncorrelated. If part of X is in part of U, then we can't isolate X's effect.
+     - But uncorrelation only measures linear dependence. Even if U and X are uncorrelated, they can still be largely dependent.
+     - Mean independence suffices for our purposes. Independence is too strong a assumption.
+ - E(U|X) = 0 also means E(Y|X) = &beta;<sub>0</sub> + &beta;<sub>1</sub>X, which, geometrically, means the Y values are distributed evenly on both sides of the modeling line.
+ - Calculate the estimates:
+   - E(U) = 0 & E(U|X) = 0. Replacing the expection with averages.
+   - The results are in terms of (X<sub>i</sub>, Y<sub>i</sub>). You could also write it in terms of (x<sub>i</sub>, y<sub>i</sub>), which will already have some sense of conditioning.
+   - The results are the same as what we get from minimizing SSR, which is why the estimates are also called OLS estimates.
+
+#### Step 4: Assess the model (the estimates)
+
+ - Unbiasedness: On average, do the estimates represent the real value of &beta;<sub>0</sub> and &beta;<sub>1</sub>?
+   - E(&beta;<sub>1</sub>-hat | X<sub>1</sub>=x<sub>1</sub> ...) = &beta;<sub>1</sub>
+   - E(&beta;<sub>0</sub>-hat | X<sub>1</sub>=x<sub>1</sub> ...) = &beta;<sub>0</sub>
+   - Conditioning on the values of Xs, but Ys are still random variables.
+ - Variance: How far can those estimates be away from the real values on average?
+   - Assume homoskedasticity. Why?
+   - Get unbiased estimates of &sigma;<sup>2</sup>
+   - Get variance of estimates (conditioning on Xs)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
 
 
