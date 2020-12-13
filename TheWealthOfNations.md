@@ -13,3 +13,9 @@ Division of labor leads to increase in productivity in three ways:
 ## Chapter II Of the principle which gives occasion to the division of labour
 
 The division of labour is the slow and gradual consequence of human's natural propensity to truck, barter, and exchange.
+
+## Chapter III That the division of labour is limited by  the extent of the market
+
+As it is the power of exchanging that gives occasion to the division of labour, so the extent of this division must always be limited by the extent of that power, or, in other words, by the extent of the market.
+
+Water-carriage expands existing markets, and makes impossible trade possible.
