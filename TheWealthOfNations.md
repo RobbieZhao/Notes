@@ -43,6 +43,30 @@ Value include:
  - Value in exchange (relative value)
  - These two are frequently negatively correlated.
 
+## Chapter V Of the real and nominal price of commodities, or of their price in labour, and their price in money
+
+How is exchangeable value measured?
+
+ - Exchangeable value is best measured by labor, which doesn't vary in value.
+ - But it's often difficult to ascertain the proportion of labor needed between commodities. So through haggling and bargaining, the quantities of other commodities become a better measure.
+ - When barter ceases, money becomes the measure.
+
+The labor needed to produce a product is the real price, money is the nominal price.
+
+Difference between real price and exchangeable value?
+
+ - Real price: how many units of labor
+ - Exchangeable value: more like a relative price (proportion of labor between two products)
+ - Indeed, both are measured by labor.
+
+At the same time and place, money measures exchangeable value.
+
+Money price is decided not by the denomination of coins but how much gold and silver they contain.
+
+**In summary:**
+
+ - Labor is the ultimate measure of exchangeable value (or real price). Money price is just an estimate.
+ - Money price is decided by the gold and silver contained in it. A coin may increase or lose in value because of damage or adulteration. The money price that people agreed upon is the amount of pure gold and silver.
 
 
 
