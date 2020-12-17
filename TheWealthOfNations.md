@@ -68,7 +68,13 @@ Money price is decided not by the denomination of coins but how much gold and si
  - Labor is the ultimate measure of exchangeable value (or real price). Money price is just an estimate.
  - Money price is decided by the gold and silver contained in it. A coin may increase or lose in value because of damage or adulteration. The money price that people agreed upon is the amount of pure gold and silver.
 
+## Chapter VI Of the component part of the price of commodities
 
+The price of a commodity consists of:
+
+ - wage, which is revenue derived from labor
+ - profit, which is the revenue derived from stock
+ - the rent of the lands
 
 
 
