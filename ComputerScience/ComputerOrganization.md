@@ -49,12 +49,22 @@ If an adder takes 800 ps to do one operation. Next cycle should arrive after 800
 
 CPI: cycle per instruction
 
-CPU execution time = CPU clock cycles × clock cycle time
+Performance Equations:
 
-clock cycle time = 1 / clock speed
+ - CPU execution time = CPU clock cycles × clock cycle time
+ 
+   (clock cycle time = 1 / clock speed, speed is the hertz)
+ - CPU execution time = CPI × #instructions × clock cycle time
+   - CPI: the nature of each instruction and the quality of architecture implementation
+   - #instructions: the quality of the compiler and the instruction set architecture
+   - manufacturing process (how fast is each transistor), how much work gets done in each pipeline stage.
 
+**Principles of computer design**
 
-
-
-
-
+ - Amdahl's law: performance improvements through an enhancement is limited by the fraction of time the enhancement comes into play. (bottleneck-driven)
+ - Systems leak energy even when idle
+ - Performance improvements typically also result in energy improvements. (energy (joules) = time (s) × power (w))
+ - 90-10 rule: 10% of the program accounts for 90% of execution time
+ - Principles of locality
+   - temporal locality: the same data/code will be used again
+   - spatical locality: nearby data/code will be touched next
