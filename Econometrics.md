@@ -222,7 +222,7 @@ Problem: There are two random variables: X and Y. We wan't to know how X affects
    - E(U|X) = E(U). This is stronger than uncorrelation and weaker than independence.
      - We need the "idea" that U and X are uncorrelated. If part of X is in part of U, then we can't isolate X's effect.
      - But uncorrelation only measures linear dependence. Even if U and X are uncorrelated, they can still be largely dependent.
-     - Mean independence suffices for our purposes. Independence is too strong a assumption.
+     - Mean independence suffices for our purposes. Independence is too strong an assumption.
  - E(U|X) = 0 also means E(Y|X) = &beta;<sub>0</sub> + &beta;<sub>1</sub>X, which, geometrically, means the Y values are distributed evenly on both sides of the modeling line.
  - Calculate the estimates:
    - E(U) = 0 & E(U|X) = 0. Replacing the expection with averages.
@@ -239,9 +239,27 @@ Problem: There are two random variables: X and Y. We wan't to know how X affects
    - Assume homoskedasticity. Why?
    - Get unbiased estimates of &sigma;<sup>2</sup>
    - Get variance of estimates (conditioning on Xs)
-   
-   
-   
+
+## Chapter 3 Multiple Regression Analysis: Estimation
+
+Why do we need multiple regression analysis?
+
+ - The key assumption for SLR, that all other factors affecting y are uncorrelated with x, is often unrealistic.
+ - If we add more factors to our model that are useful for explaning y, then more of the variation in y can be explained.
+ - It can incorporate fairly general functional form relationship.
+
+### 3-1 Motivation for multiple regression
+
+Multiple linear regression (MLR) model (aka multiple regression model):
+
+ - y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x<sub>1</sub> + &beta;<sub>2</sub>x<sub>2</sub> + &beta;<sub>3</sub>x<sub>3</sub> + ... + &beta;<sub>k</sub>x<sub>k</sub> + &mu;
+ - terms: 
+   - &beta;<sub>0</sub>: intercept
+   - &beta;<sub>i</sub> are slope parameters
+   - u: error term or disturbance
+ - key assumption: E(&mu;|x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub>) = 0 
+   - intuitively, this the key for estimating ceteris paribus relationship.
+   - algebraically, without this assumption, the estimators will be biased.
    
    
    
