@@ -68,3 +68,23 @@ Performance Equations:
  - Principles of locality
    - temporal locality: the same data/code will be used again
    - spatical locality: nearby data/code will be touched next
+
+**Instruction set**
+
+ - different instruction sets:
+   - MIPS: a reduced intruction set computer RISC
+   - ARM: a RISC
+   - X86: a CISC
+   - IBM Power
+ - C code => compiler => assembly code => assembler => machine code
+ - Principles when designing ISA:
+   - keep the hardware simple — the chip must only implement basic primitives and run fast
+   - keep the instructions regular — simplifies the decoding/scheduling of instructions
+ - Terms: 
+   - ISA: Instruction set architecture
+   - register: a register is a storage unit in the processor that keeps tracks of values. To use less registers, the more efficient.
+   - register file: an array of processor registers in a CPU
+
+
+
+
