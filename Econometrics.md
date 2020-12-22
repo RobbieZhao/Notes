@@ -240,6 +240,8 @@ Problem: There are two random variables: X and Y. We wan't to know how X affects
    - Get unbiased estimates of &sigma;<sup>2</sup>
    - Get variance of estimates (conditioning on Xs)
 
+Question: Why don't we assume cov(x, &mu;) = 0 & E(&mu;) = 0 instead of SLR4? it seems that if we only assume these two conditions, we could still get the estimates and prove unbiasedness.
+
 ## Chapter 3 Multiple Regression Analysis: Estimation
 
 Why do we need multiple regression analysis?
@@ -260,7 +262,17 @@ Multiple linear regression (MLR) model (aka multiple regression model):
  - key assumption: E(&mu;|x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub>) = 0 
    - intuitively, this the key for estimating ceteris paribus relationship.
    - algebraically, without this assumption, the estimators will be biased.
-   
+   - from this we can derive that all xs are uncorrelated to &mu;
+
+### 3-2 Mechanics and interpretation of ordinary least squares
+
+The power of multiple regression analysis is that it provides partial effect or ceteris paribus interpretation even though the data have not been collected in a ceteris paribus fashion.
+
+To solve for estimates, must assume that the first order conditions can be solved uniquely for &beta;s. For example, to solve for &beta;<sub>1</sub>:
+
+ - To derive &beta;<sub>1</sub>, regression x<sub>1</sub> on x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>k</sub>, get the residuals. The residuals are part of  x<sub>1</sub> that's uncorrelated with other xs. Another way of saying this is that residuals are x<sub>1</sub> after the effects of other xs have been partialled out or netted out.
+ - Then regress y on the residuals
+ - In econometrics, the general partialling out result is usually called the Frisch-Waught theorem.
    
    
    
