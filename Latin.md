@@ -9,3 +9,10 @@
    3. direct object and modifiers
    4. adverbial words or phrases
    5. verb
+
+#### The story of the short "e"
+
+ - Before an "o" it drops out completely.
+ - Before an "s, t, mus," it changes to a short "i"
+ - Before an "nt", it changes to a "u"
+ - Before an "r", it stays short "e" 
