@@ -85,6 +85,15 @@ Performance Equations:
    - register: a register is a storage unit in the processor that keeps tracks of values. To use less registers, the more efficient.
    - register file: an array of processor registers in a CPU
 
+**Memory organization**
 
+ - Space allocated on stack by a procedure is termed the activation record.
+   - frame pointer ($fp) points to the start of the record
+   - stack pointer ($sp) points to the end of the record
+   - $gp points to area in memory that saves global variables. 
+   - Dynamically allocated storage (with malloc()) is placed on heap. 
 
-
+	| Stack<br>↓<br><br>↑<br>Dynamic data (heap) |
+	|:------------------------------------------:|
+	|            Static data (globals)           |
+	|             Text (instructions)            |
