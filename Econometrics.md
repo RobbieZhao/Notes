@@ -274,9 +274,24 @@ To solve for estimates, must assume that the first order conditions can be solve
  - Then regress y on the residuals
  - In econometrics, the general partialling out result is usually called the Frisch-Waught theorem.
    
+The simple regression of y on x<sub>1</sub> and the multiple regression of y on x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub> produce an identical estimate of x<sub>1</sub> only if:
+
+ - the OLS coefficients on x<sub>2</sub> through x<sub>k</sub> are all zero
+ - or x<sub>1</sub> is uncorrelated with each of x<sub>2</sub>, ... , x<sub>k</sub>
+
+An important fact about R<sup>2</sup> is that it never decreases, and it usually increases, when another independent variable is added to a regression and the same set of observations is used for both regressions:
+
+ - the variance of y doesn't change
+ - SSR only decreases. (the model with less vars is just a special case of the one with more vars)
+
+Generally, a low R<sup>2</sup> indicates that it is hard to predict individual outcomes on y with much accuracy.
    
-   
-   
+Regression through the origin:
+
+ - OLS residuals no longer have a zero sample average
+ - R<sup>2</sup> can be negative. This means the sample average explains more of the variation in the y than the explanatory variables. Either we should include an intercept in the regression or conclude that the explanatory variables poorly explain y.
+ - If the intercept in the population model is different from 0, then OLS estimators of the slope parameters will be biased.
+ - The upside to regression through the origin is that the variances of the estimators are smaller.  
    
    
    
