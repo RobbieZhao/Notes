@@ -291,7 +291,61 @@ Regression through the origin:
  - OLS residuals no longer have a zero sample average
  - R<sup>2</sup> can be negative. This means the sample average explains more of the variation in the y than the explanatory variables. Either we should include an intercept in the regression or conclude that the explanatory variables poorly explain y.
  - If the intercept in the population model is different from 0, then OLS estimators of the slope parameters will be biased.
- - The upside to regression through the origin is that the variances of the estimators are smaller.  
+ - The upside to regression through the origin is that the variances of the estimators are smaller.
+
+### 3-3 The expected value of the OLS estimators
+
+Statistical properties have nothing to do with a particular sample, but rather with the property of estimators when random sampling is done repeatedly.
+
+**Assumption MLR.1 Linear in parameters**
+
+ - The model in the population can be written as: y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x<sub>1</sub> + &beta;<sub>2</sub>x<sub>2</sub> + &beta;<sub>3</sub>x<sub>3</sub> + ... + &beta;<sub>k</sub>x<sub>k</sub> + &mu;
+   - &beta;<sub>0</sub>, &beta;<sub>1</sub>, ... , &beta;<sub>k</sub> are the unknown parameters (constants) of interest
+   - &mu; is an unobserved random error or disturbance term.
+ - This is called the **population model** or **true model**
+
+**Assumption MLR.2 Random sampling**
+
+ - We have a random sample of n observations {(x<sub>i1</sub>, x<sub>i2</sub>, ... , x<sub>ik</sub>, y<sub>i</sub>): i=1, 2, ... , n}
+
+**Assumption MLR.3 No perfect collinearity**
+
+ - In the sample (and therefore in the population), there are no exact linear relationships among the independent variables.
+   - If an independent variable is an exact linear combination of the other independent variables, then we say the model suffers from **perfect collinearity**, and it cannot be estimated by OLS.
+     - Intuitively, the problem is that we cannot interpret the equation in a ceteris paribus fashion.
+     - Algebraically, suppose x<sub>1</sub> is determined by other variables, then regressing x<sub>1</sub> on other variables will give us residuals all 0. Then when we try to compute &beta;<sub>1</sub>, the denominator will be 0.
+     - Possible solution: drop some variables from the model
+   - This assumption does allow the independent variables to be correlated; they just cannot be perfectly correlated.
+ - Violations to this assumption
+   - One of the independent variable is constant
+   - The sample size is too small in relation to the number of parameters being estimated. (n < k+1)
+
+**Assumption MLR.4 Zero conditional mean**
+
+ - The error &mu; has an expected value of zero given any values of the independent variables: E(&mu;|x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub>) = 0.
+   - When MLR.4 holds, we often say that we have **exogenous explanatory variables**.
+   - If x<sub>j</sub> is correlated with &mu;for any reason, then x<sub>j</sub> is said to be an **endogenous explanatory variable**.
+ - Violations to this assumption
+   - The functional relationship between the explained and explanatory variables is misspecified.
+   - Omitting an important factor that is correlated with any of x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub> causes MLR.4 to fail.
+
+**Theorem 3.1 Unbiasedness of OLS**
+
+ - Under assumption MLR.1-4, all estimates are unbiased.
+ - We do not mean any particular estimate is unbiased. We mean that the procedure by which the OLS estimates are obtained is unbiased when we view the procedure as being applied across all possible random samples.
+
+**Some issues with MLR**
+
+ - **Inclusion of an irrelevant variable** or **overspecifying the model**: This does not affect the unbiasedness of the OLS estimators.
+ - **Excluding a relevant variable** or **underspecifying the model**
+   - Expectation — true value is called **omitted variable bias**
+   - Correlation between a single explanatory variable and the error generally results in all OLS estimators being biased.
+   - We can not say a particular estimate is too big or too small. We can only say if we collect many random samples and obtain the simple regression estimates each time, then the average of these estimates will be greater than or less than their true values.
+   - direction of bias
+     - expectation > true value: **upward bias**
+     - expectation < true value: **downward bias**
+     - 0 < abs(expectation) < abs(true value): **biased toward zero**
+
    
    
    
