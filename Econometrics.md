@@ -151,7 +151,7 @@ Goodness of fit
  
  - The sample outcomes on x (i.e. x<sub>1</sub>, x<sub>1</sub>, ...) are not all the same value
 
-##### SLR 4 Zero Condit ional Mean
+##### SLR 4 Zero Conditional Mean
 
  - E(&mu;|x) = 0
  - This is equivalent to E(&mu;|x) = E(&mu;) & E(&mu;) = 0
@@ -346,16 +346,38 @@ Statistical properties have nothing to do with a particular sample, but rather w
      - expectation < true value: **downward bias**
      - 0 < abs(expectation) < abs(true value): **biased toward zero**
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
+### 3-4 The variance of the OLS estimators
 
+**Assumption MLR.5 Homoskedasticity**
 
+ - The error &mu; has the same variance given any value of the explanatory variables: Var(&mu;|x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub>) = &sigma;<sup>2</sup>
+ - We need this for two reasons:
+   - The formulas of variance of &beta;s are simplified by imposing the constant error variance assumption.
+   - OLS has an important efficiency property if we add the homoskedasticity assumption.
+ - MLR.1—MLR.5 are collectively known as the Gauss-Markov assumptions (for cross-sectional regression)
 
+**Theorem 3.2 Sampling variances of the OLS slope estimators**
 
+ - The variance of estimate of &beta;<sub>j</sub> = &sigma;<sup>2</sup> / SST<sub>j</sub>(1 - R<sub>j</sub><sup>2</sup>)
+   - SST<sub>j</sub> is the total sample variance in x<sub>j</sub>
+   - R<sub>j</sub><sup>2</sup> is the R-squared from regressing x<sub>j</sub> on all other independent variables (including an intercept)
+   - square root of this is called **standard deviation** of &beta;<sub>j</sub>-hat
+   - replacing &sigma; with its estimate gives us the **standard error** of &beta;<sub>j</sub>-hat
+ - Is there a simple formula for the variance where we do not condition on the sample outcomes of the explanatory variables?
+   - None that is useful. The above formula is a highly nonlinear function of xs, making averaging out across the population distribution of the explanatory variables virtually impossible.
+ - Remember, all of the Gauss-Markov assumptions are used in obtaining this formula.
+ - Components of the formula:
+   - &sigma;<sup>2</sup>: the error variance. For a given dependent y, there is really only one way to reduce the error variance, and that is to add more explanatory variables to the equation (take some factors out of the error term)
+   - SST<sub>j</sub>: the total sample variation in x<sub>j</sub>. We can increase the sample size to increase SST<sub>j</sub> and reduce the variance.
+   - R<sub>j</sub><sup>2</sup>: the linear relationships among the independent variables
+     - R<sub>j</sub><sup>2</sup> = 0 iff x<sub>j</sub> has zero sample correlation with every other independent variable
+     - High (but not perfect) correlation between two or more independent variables is called **multicollinearity**.
+ - The choice of whether to include a particular variable in a regression model can be made by analyzing the tradeoff between bias and variance. But we would prefer including the variable because:
+   - (main reason) The bias doesn't shrink to 0 as the sample size grows (it doesn't follow any pattern), but the variance shrinks to 0 as sample size grows.
+   - &sigma;<sup>2</sup> increases when a variable is excluded from the model. Simply comparing between &sigma;<sup>2</sup> / SST<sub>j</sub>(1 - R<sub>j</sub><sup>2</sup>) and &sigma;<sup>2</sup> / SST<sub>j</sub> ignores this fact.
+
+**Theorem 3.3 Unbiased estimation of &sigma;<sup>2</sup>**
+
+ - Under Gauss-Markov assumptions MLR.1—MLR.5, E(SSR/(n-k-1)) = &sigma;<sup>2</sup>
+   - n-k-1 is the degrees of freedom: #obervations-#number of estimated parameters.
+   - sqrt(SSR/(n-k-1)) is called the standard error of the regression (SER), or standard error of the estimate, or the root mean squared error.
