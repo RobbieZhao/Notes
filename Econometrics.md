@@ -381,3 +381,21 @@ Statistical properties have nothing to do with a particular sample, but rather w
  - Under Gauss-Markov assumptions MLR.1—MLR.5, E(SSR/(n-k-1)) = &sigma;<sup>2</sup>
    - n-k-1 is the degrees of freedom: #obervations-#number of estimated parameters.
    - sqrt(SSR/(n-k-1)) is called the standard error of the regression (SER), or standard error of the estimate, or the root mean squared error.
+
+### 3-5 Efficiency of OLS: The Guass-Markov Theorem
+
+**Theorem 3.4 Guass-Markov Theorem**
+
+ - Under Assumptions MLR.1through MLR.4, the estimators for &beta;s are the best linear unbiased estimators
+   - best: having the smallest variance
+   - linear: it can be expressed as a linear function of the data on the dependent variable
+   - estimator: it is a rule that can be applied to any sample of data to produce an estimate
+ - If we want to estimate any linear function of the &beta;<sub>j</sub>, then the corresponding linear combination of the OLS estimators achieves the smallest variance among all linear unbiased estimators.
+
+### 3-6 Some comments on the language of multiple regression analysis
+
+It's wrong to say we "estimated an OLS model"
+
+ - OLS is an estimation method, not a model
+ - A model describes an underlying population and depends on unknown parameters
+ - We should say, we "estimated a linear model by OLS"
