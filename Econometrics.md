@@ -399,3 +399,23 @@ It's wrong to say we "estimated an OLS model"
  - OLS is an estimation method, not a model
  - A model describes an underlying population and depends on unknown parameters
  - We should say, we "estimated a linear model by OLS"
+
+## Chapter 4: Multiple Regression Analysis: Inference
+
+### 4-1 Sampling distributions of the OLS estimators
+
+**Assumption MLR.6 Normality assumption**
+
+ - The population error &mu; is independent of the explanatory variables, and &mu; ~ Normal (0, &sigma;<sup>2</sup>)
+ - MLR.6 implies MLR.4 and MLR.5
+   - E(&mu;|x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub>) = E(&mu;) = 0
+   - Var(&mu;|x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub>) = Var(&mu;) = &sigma;<sup>2</sup>
+ - Assumptions MLR.1—MLR.6 are called **classical linear model (CLM)** assumptions
+ - The model under these six assumptions is called the **classical linear model**
+ - Under CLM assumptions, the OLS estimators have a stronger efficiency property than they would under Gauss-Markov assumptions
+   - OLS estimators has the smallest variance among unbiased estimators
+
+**Theorem 4.1 Normal sampling distributions**
+
+ - Under CLM assumptions MLR.1—MLR.6, conditional on the sample values of the independent variables:
+   - the estimator of &beta;<sub>j</sub> ~ Normal (&beta;<sub>j</sub>, Var(&beta;-hat<sub>j</sub>))
