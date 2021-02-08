@@ -29,6 +29,13 @@
 
 ## Vim
 
+Modes
+ - command mode
+ - insert mode
+ - visual mode
+
+Commands
+
  - `:`+ `q` quit
  - `:` + `wq` save and quit
  - `:` + `q` + `!` quit and not save
@@ -39,7 +46,7 @@
  - `{` up one block; `}` down one block
  - `h` left; `l` right; `j` down; `k` up
  - `number + h/l/j/k/{/}` do something # times
- - `.` do it again
+ - `.` redo the last command
  - `yy` copy; `p` paste below; `P` paste above
  - `V` visual mode; `d` delete
  - `o` new line below and enter insert mode; `O` new line above and enter insert mode
@@ -47,6 +54,25 @@
  - `w` move to the next word; `W` go to the next space; `b` go back a word; `B` go back to the last space
  - `:` + `n` go to line n
  - `0` go to start of the line; `^` or `0w` go to the start of the line (not including spaces); `$` go to the end of the line
- - `t + char` move the cursor to in front of the char; `f + char` move the cursor to the char
+ - `t + char` move the cursor to in front of the char; `f + char` move the cursor to the char; `;` to the next instance
  - `%` go to the corresponding block sign; `d + %` delete what's between the block signs
  - `esc` cancel the command
+ - `cw` (c stands for changing) delete word and enter insert mode
+ - `dw` delete word
+ - `D` delete rest of the line; `C` delete rest of the line and enter insert mode
+ - `c + t + char` delete to char and enter insert mode
+ - `d + t + char` delete to char
+ - `*` go to the next occurrence of the word
+ - `zz` center the cursor
+ - `i` insert mode; `a` insert mode and move cursor to the right; `A` move to the end of the line
+ - `x` delete the current char
+ - `~` swap the case
+ - `r + char` replace the current letter with t
+ - `vv` indent a line of code; under visual mode, `v` indent selected lines of code
+ - `q` + `char` start recording macros; `q` stop recording; @CHAR replay the macro
+ - `>` indent code
+ - `<` left indent code
+ - `ctrl + v` select columns of chars
+ - `ctrl + v` + `I` + type something + `esc` insert something in front of all lines
+ - `/text` search for text; `n` go next; `N` go back
+ - 
