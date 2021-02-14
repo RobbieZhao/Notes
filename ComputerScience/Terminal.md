@@ -15,6 +15,32 @@
  - `ctrl-l` -- clear the whole screen
  - `cmd-k` -- clear scrollback
 
+## Terminal Commands
+
+### basic
+ - `ls -l` the long form of ls
+ - `cd ~` go home
+ - `cp -r source destination` copy files in source directory into destination directory
+ - `rm -r dir` remove a directory
+ - `rm -rf dir` force remove a directory 
+
+### find
+
+`find dir` + options
+
+ - type
+   - d directories
+   - f files
+ - name
+ - iname case-insensitive
+ - mmin 
+  - -n modified less than n minutes ago
+  - +n modified more than n minutes ago
+ - mtime: like mmin but with days
+
+ - `find . -type f -mmin -10` find 
+ 
+ 
 ## Terminal v.s. Bash v.s. shell
 
  - Terminal is a terminal emulator + a shell program running inside of it. On OS X, the default shell is Bash.
