@@ -26,7 +26,7 @@
 
 ### find
 
-`find dir` + options
+`find dir` + options: ex: `find . -type f -mmin -10` 
 
  - type
    - d directories
@@ -34,11 +34,21 @@
  - name
  - iname case-insensitive
  - mmin 
-  - -n modified less than n minutes ago
-  - +n modified more than n minutes ago
+   - -n modified less than n minutes ago
+   - +n modified more than n minutes ago
  - mtime: like mmin but with days
+ - size
+   - +5G greater than 5GB
+   - +5M greater than 5MB
+   - +5k greater than 5k
+ - empty: find empty files
+ - perm
+ - exec: run following commands on the results
+   - + or \; to end the command
+   - {} as placeholder
+ - maxdepth: 1 if only searching for current dir
+ - 
 
- - `find . -type f -mmin -10` find 
  
  
 ## Terminal v.s. Bash v.s. shell
