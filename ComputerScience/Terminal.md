@@ -47,9 +47,21 @@
    - + or \; to end the command
    - {} as placeholder
  - maxdepth: 1 if only searching for current dir
- - 
 
- 
+### grep: global regular expression print
+ - `grep text file`: search for text in file
+ - `grep -w text file` search but with whole word
+ - `grep -i` case-insensitive search
+ - `grep -n` print out line number
+ - `grep -B 4` print out the four lines before
+ - `grep -A 4` print out the four lines after
+ - `grep -C 2` 2 lines before and 2 lines after
+ - `grep text ./*` search for all files in the curr dir
+ - `grep -r` search recursively
+ - `grep -l text dir` only list which files contain text
+ - `grep -lc` count how many matches in each file
+ - `history | grep "git commit"` search for history commands that have git commit
+ - `grep "regex"` search using POSIX regular expressions
  
 ## Terminal v.s. Bash v.s. shell
 
