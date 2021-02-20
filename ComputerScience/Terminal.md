@@ -62,7 +62,18 @@
  - `grep -lc` count how many matches in each file
  - `history | grep "git commit"` search for history commands that have git commit
  - `grep "regex"` search using POSIX regular expressions
- 
+
+### curl
+ - `curl url -o filename` download file from the url and name it as filename
+
+### rsync
+ - `rsync srcdir/* destdir/` copy all files from src to dest.
+ - `rsync -r srcdir/ destdir/` copy everthing from src to dest.
+ - `rsync -v --dry-run srcdir/* destdir` see what files are gonna be copied (v: verbose)
+ - `rsync -a`: archive, copy everything and info
+ - `rsync --delete` sync and delete files in destination but don't exist in source
+ - `rsync -zaP` zip, archive, and show Progress
+
 ## Terminal v.s. Bash v.s. shell
 
  - Terminal is a terminal emulator + a shell program running inside of it. On OS X, the default shell is Bash.
