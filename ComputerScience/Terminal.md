@@ -74,6 +74,24 @@
  - `rsync --delete` sync and delete files in destination but don't exist in source
  - `rsync -zaP` zip, archive, and show Progress
 
+### crontab: cronos table
+
+ - `crontab -l` show all tasks
+ - `crontab -e` edit table
+ - timing: 
+   - minute (0-59)
+   - hour(0-23) 
+   - day of month (1-31) 
+   - month (1-12)
+   - day of week(0-6) (Sunday to Saturday)
+   - or could use * to match every value
+ - use `,` to have multiple values
+ - `*/n` every n mintes, hours, ...
+ - `n-m` range
+ - `#` comment
+ - `crontab -r` remove all tasks
+ - `crontab.guru`
+
 ## Terminal v.s. Bash v.s. shell
 
  - Terminal is a terminal emulator + a shell program running inside of it. On OS X, the default shell is Bash.
