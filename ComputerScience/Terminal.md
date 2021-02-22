@@ -92,6 +92,24 @@
  - `crontab -r` remove all tasks
  - `crontab.guru`
 
+## .bash_profile & .bashrc
+ - `.bash_profile` for a login shell, `.bashrc` for a non-login shell
+ - To use the same setup for login shells and non-login shells, put this in the `.bash_profile`:
+
+		if [ -f ~/.bashrc ]; then
+		    source ~/.bashrc
+		fi
+
+ - `source .bashrc` run bashrc (could also restart the terminal)
+ - special characters:
+   - `\h` the hostname up to the first .
+   - `\n` newline
+   - `\s` the name of the shell
+   - `\t` the current time in 24-hour format
+   - `\u` the username of the current user
+   - `\w` the current working directory
+   - `\W` the basename of the current working directory 
+
 ## Terminal v.s. Bash v.s. shell
 
  - Terminal is a terminal emulator + a shell program running inside of it. On OS X, the default shell is Bash.
