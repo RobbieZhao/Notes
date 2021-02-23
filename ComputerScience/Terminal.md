@@ -92,6 +92,14 @@
  - `crontab -r` remove all tasks
  - `crontab.guru`
 
+### alias
+ - `alias name='alias name'`
+ - `alias` show all aliases
+
+### sips
+ - `sips -Z 640 *.jpg` resize all images into 640 pixels, `-Z` means keeping height-width ratio unchanged
+ - `sips -Z 300 *.jpg --out newfolder/` resize and output the files to a new folder 
+
 ## .bash_profile & .bashrc
  - `.bash_profile` for a login shell, `.bashrc` for a non-login shell
  - To use the same setup for login shells and non-login shells, put this in the `.bash_profile`:
