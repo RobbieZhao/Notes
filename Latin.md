@@ -42,3 +42,39 @@
    - tē: abl. and acc. sg. you
    - tuus, tua, tuum: adj. your, used when speaking to only one person
    - vester, vestra, vestrum: your (pl. used in addressing more than one person)
+
+#### Important endings
+
+ - Present, future, imperfect of laudā (first & second conjugations)
+
+	|         | Present Indicative | Future Indicative | Imperfect Indicative |
+	|:-------:|:------------------:|:-----------------:|:--------------------:|
+	| sg. 1st |        laudō       |      laudābō      |       laudābam       |
+	| sg. 2nd |       laudās       |      laudābis     |       laudābās       |
+	| sg. 3rd |       laudat       |      laudābit     |       laudābat       |
+	| pl. 1st |      laudāmus      |     laudābimus    |      laudābāmus      |
+	| pl. 2nd |      laudātis      |     laudābitis    |      laudābātis      |
+	| pl. 3rd |       laudant      |     laudābunt     |       laudābant      |
+
+ - Present, future, imperfect of sum
+
+	|         | Present Indicative | Future Indicative | Imperfect Indicative |
+	|:-------:|:------------------:|:-----------------:|:--------------------:|
+	| sg. 1st |         sum        |        erō        |         eram         |
+	| sg. 2nd |         es         |        eris       |         erās         |
+	| sg. 3rd |         est        |        erit       |         erat         |
+	| pl. 1st |        sumus       |       erimus      |        erāmus        |
+	| pl. 2nd |        estis       |       eritis      |        erātis        |
+	| pl. 3rd |        sunt        |       erunt       |         erant        |
+
+ - Present, future, imperfect of possum
+
+	|         | Present Indicative | Future Indicative | Imperfect Indicative |
+	|:-------:|:------------------:|:-----------------:|:--------------------:|
+	| sg. 1st |       possum       |       poterō      |        poteram       |
+	| sg. 2nd |        potes       |      poteris      |        poterās       |
+	| sg. 3rd |       potest       |      poterit      |        poterat       |
+	| pl. 1st |      possumus      |     poterimus     |       poterāmus      |
+	| pl. 2nd |      potestis      |     poteritis     |       poterātis      |
+	| pl. 3rd |       possunt      |      poterunt     |       poterant       |
+
