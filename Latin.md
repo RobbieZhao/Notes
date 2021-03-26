@@ -45,7 +45,7 @@
 
 #### Important endings
 
- - Present, future, imperfect of laudā (first & second conjugations)
+ - Present, future, imperfect indicative active of laudā (first & second conjugations)
 
 	|         | Present Indicative | Future Indicative | Imperfect Indicative |
 	|:-------:|:------------------:|:-----------------:|:--------------------:|
@@ -56,7 +56,18 @@
 	| pl. 2nd |      laudātis      |     laudābitis    |      laudābātis      |
 	| pl. 3rd |       laudant      |     laudābunt     |       laudābant      |
 
- - Present, future, imperfect of sum
+ - Present, future, imperfect indicative active of age (third conjugations)
+
+	|         | Present Indicative | Future Indicative | Imperfect Indicative |
+	|:-------:|:------------------:|:-----------------:|:--------------------:|
+	| sg. 1st |         agō        |        agam       |        agēbam        |
+	| sg. 2nd |        agis        |        agēs       |        agēbās        |
+	| sg. 3rd |        agit        |        aget       |        agēbat        |
+	| pl. 1st |       agimus       |       agēmus      |       agēbāmus       |
+	| pl. 2nd |       agitis       |       agētis      |       agēbātis       |
+	| pl. 3rd |        agunt       |       agent       |        agēbant       |
+
+ - Present, future, imperfect indicative active of sum
 
 	|         | Present Indicative | Future Indicative | Imperfect Indicative |
 	|:-------:|:------------------:|:-----------------:|:--------------------:|
@@ -67,7 +78,7 @@
 	| pl. 2nd |        estis       |       eritis      |        erātis        |
 	| pl. 3rd |        sunt        |       erunt       |         erant        |
 
- - Present, future, imperfect of possum
+ - Present, future, imperfect indicative active of possum
 
 	|         | Present Indicative | Future Indicative | Imperfect Indicative |
 	|:-------:|:------------------:|:-----------------:|:--------------------:|
