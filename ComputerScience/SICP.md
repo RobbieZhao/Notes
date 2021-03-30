@@ -1,0 +1,76 @@
+Install sicp and simply-scheme in Dr. Racket
+
+## [Course websites](https://inst.eecs.berkeley.edu//~cs61a/su10/index.html)
+
+## Notes from [videos](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
+
+### L01
+
+ - Why do we need functional way to represent mathematical expressions?
+
+   - Consistency. In math, you can have prefix, infix, suffix operators or operators that are positioned somewhere else. In functional way, it's always prefix.
+
+ - How does Scheme evaluated things?
+
+        (a b c d e)
+ 
+   - First evaluate a b c d e. The value of a is a function, the rest are values. Then call the function with those values. 
+
+ - A special case of the above evaluation process is `define`:
+
+    
+        (define (square x) ; x is the formal parameter
+            (* x x))       ; (* x x) is the body
+    
+        (square (+ 2 3))   ; (+ 2 3) is the actual argument expression 
+                           ; (5 is the actual argument value)
+ - The other special case is `if`
+		
+		(if condition
+		    expr1
+		    expr2)
+ - predicate function: returns true or false
+ - Fix `plural` function:
+
+		#lang simply-scheme
+		
+		(define (plural wd)
+		  (if (and (ends-with-y? wd)
+		           (consonant? (second-to-last wd)))
+		      (word (bl wd) 'ies)
+		      (word wd 's)))
+		
+		(define (ends-with-y? wd)
+		  (equal? (last wd) 'y))
+		
+		(define (second-to-last wd)
+		  (last (bl wd)))
+		  
+		(define (vowel? letter)
+		  (member? letter '(a e i o u)))
+		
+		(define (consonant? letter)
+		  (not (vowel? letter)))
+		
+		(plural 'book)
+		(plural 'fly)
+		(plural 'boy)
+
+### L02
+
+ - Don't use "go back" when thinking about recursion.
+ - Abstraction
+ - Functions don't care about other things. Given the same input, they always return the same output.
+   - f(x) = 2x + 6 v.s. g(x) = 2(x + 3)
+     - Same function: given same input, always return same outputs.
+     - Different procedure: procedure is a sequence of steps for computing something.
+   - f(x) = 2x + 2b v.s. g(x) = 2(x + b): same procedures but different functions
+   - `random` is not a function (because it might return different result)
+ - cond `(cond clause clause clause ...)`
+   - clause: `(test action)`
+        
+ - applicative order (which scheme uses) v.s. normal order
+   - applicative order: first evaluate the subexpressions (actual argument expressions), get the actual argument value, then call the function, substitute the value into the body
+   - normal order: first substitute the subexpressions into the body, and it doesn't evaluate anything until it tries to call a primitive (like +, *)
+  
+## [Lecture notes](https://web.archive.org/web/20091127212630/http://inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf)
