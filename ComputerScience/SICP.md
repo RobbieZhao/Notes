@@ -64,7 +64,6 @@ Install sicp and simply-scheme in Dr. Racket
    - f(x) = 2x + 6 v.s. g(x) = 2(x + 3)
      - Same function: given same input, always return same outputs.
      - Different procedure: procedure is a sequence of steps for computing something.
-   - f(x) = 2x + 2b v.s. g(x) = 2(x + b): same procedures but different functions
    - `random` is not a function (because it might return different result)
  - cond `(cond clause clause clause ...)`
    - clause: `(test action)`
