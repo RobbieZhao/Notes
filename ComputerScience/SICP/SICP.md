@@ -70,6 +70,19 @@ Install sicp and simply-scheme in Dr. Racket
         
  - applicative order (which scheme uses) v.s. normal order
    - applicative order: first evaluate the subexpressions (actual argument expressions), get the actual argument value, then call the function, substitute the value into the body
-   - normal order: first substitute the subexpressions into the body, and it doesn't evaluate anything until it tries to call a primitive (like +, *)
+   - normal order: first substitute the subexpressions into the body, and it doesn't evaluate anything until it obtained an expression involving only primitive procedure (like +, *) (the example in the book seems to contradict with the example [here](https://sookocheff.com/post/fp/evaluating-lambda-expressions/))
+
+## Notes from the textbook
+
+### 1.1 
+
+ - read-eval-print loop
+   - reads an expression from the terminal
+   - evaluates the expression
+   - prints the result
+ - substitution model: replace the formal argument with actual argument value
+ - Special forms: define, cond, if, and, or
+ - bound variable, free variable, scope
+ - lexical scoping
   
 ## [Lecture notes](https://web.archive.org/web/20091127212630/http://inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf)
