@@ -170,7 +170,7 @@ Commands
  - `i` insert mode; `a` insert mode and move cursor to the right; `A` move to the end of the line
  - `x` delete the current char
  - `~` swap the case
- - `r + char` replace the current letter with t
+ - `r + char` replace the current letter with char
  - `vv` indent a line of code; under visual mode, `v` indent selected lines of code
  - `q` + `char` start recording macros; `q` stop recording; @CHAR replay the macro
  - `>` indent code
@@ -178,4 +178,53 @@ Commands
  - `ctrl + v` select columns of chars
  - `ctrl + v` + `I` + type something + `esc` insert something in front of all lines
  - `/text` search for text; `n` go next; `N` go back
- - 
+
+## Emacs
+
+ - C-x, C-c ends the session
+ - C-v move forward one screen
+ - M-v move backward one screen
+ - C-l center the cursor
+ - C-b back; C-f forward; C-p previous line; C-n next line
+ - M-f forward a word; M-b back a word
+ - C-a beginning of line, C-e end of line; M-a begin of sentence, M-e end of sentence
+ - M-< beginning of file; M-> end of file
+ - C-u n command: do the command n times
+ - C-g stop a command
+ - C-x 1 delete all other screens
+ - C-d delete next char
+ - M-del kill the word before; M-d kill next word
+ - C-k kill to end of line
+ - M-k kill to end of sentence
+ - C-space + move cursor + C-w kills text in between
+ - C-y paste
+ - M-y previous paste history
+ - C-/ or C-_ or C-x u undo; C-g C-/ redo
+ - C-x C-f open the file
+ - C-x C-s save the file; C-x s save all files that need to be saved
+ - C-x C-b see a list of opened files
+ - C-x b buffername open the buffer
+ - C-z exit emacs temporarily; fg to return to the session
+ - M-x recover-this-file recover a file
+ - M-x text-mode/fundamental-mode/auto-fill-mode switch to mode
+ - C-h m see documentation on the current mode
+ - Can only have one major mode, but multiple minor mode
+ - C-x f n set the margin to be n characters
+ - M-q refill the paragraph (with Auto Fill mode on)
+ - C-s search, do it again to go to next one; enter exit to search; C-r reverse search
+ - C-x 2 split the window into 2; C-M-v scroll the bottom window; C-x o move the cursor to the other window
+ - C-x 4 C-f open another file in another window and move the cursor there
+ - C-x 5 2 open a new frame; C-x 5 0 remove the selected frame
+
+
+
+
+
+
+
+
+
+
+
+
+
