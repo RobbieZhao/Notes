@@ -72,6 +72,49 @@ Install sicp and simply-scheme in Dr. Racket
    - applicative order: first evaluate the subexpressions (actual argument expressions), get the actual argument value, then call the function, substitute the value into the body
    - normal order: first substitute the subexpressions into the body, and it doesn't evaluate anything until it obtained an expression involving only primitive procedure (like +, *) (the example in the book seems to contradict with the example [here](https://sookocheff.com/post/fp/evaluating-lambda-expressions/))
 
+### L03
+
+ - higher order procedures: either it takes a procedure as an argument or returns a procedure as a value
+ - lambda is the only way to make a procedure
+
+### L04
+
+ - First class datatype can be:
+   - the value of a variable
+   - an argument to a procedure
+   - the value returned by a procedure
+   - am member of an aggregate
+   - anonymous
+ - Special form: let
+
+		(let bindings body)
+		
+		bindings = (binding binding binding ...)
+		
+		binding = (name value-expr) 
+   - let form is an abbreviation:
+
+			(let ((d (+ 4 5)))
+			  (* d d))
+			
+			is an abbreviation of
+			
+			((lambda (d) (* d d)) (+ 4 5))
+		
+ - bindings cannot refer to each other
+ - in `let*`, bindings can refer to each other
+
+		(let* ((a 3)
+		       (b (+ a 5)))
+		  (* a b))
+		  
+		will be translated to:
+		
+		(let ((a 3))
+		  (let ((b (+ a 5)))
+		    (* a b)))
+
+
 ## Notes from the textbook
 
 ### 1.1 
