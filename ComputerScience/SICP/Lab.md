@@ -100,3 +100,14 @@
 	
 	(sum-of-sents '(1 2 3) '(6 3 9))
 	(sum-of-sents '(1 2 3 4 5) '(8 9))
+
+### Lab 1B
+
+	#lang simply-scheme
+	
+	(define (substitute st old-wd new-wd)
+	  (cond ((empty? st) '())
+	        ((equal? (first st) old-wd) (sentence new-wd (substitute (bf st) old-wd new-wd)))
+	        (else (sentence (first st) (substitute (bf st) old-wd new-wd)))))
+	
+	(substitute '(she loves you yeah yeah yeah) 'yeah 'maybe)
