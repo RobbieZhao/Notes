@@ -10,6 +10,7 @@
    3. direct object and modifiers
    4. adverbial words or phrases
    5. verb
+ - When demonstratives modify nouns, they function as adjectives; since they are by nature emphatic, they regularly precede the nouns they modify
 
 #### The story of the short "e"
 
@@ -24,12 +25,17 @@
    - sine
    - dē
    - in
+   - ex or ē
+   - cum
  - +acc.
    - propter
    - post
+   - ad
+ - abl. with verbs or rest, acc. with verbs of motion
+   - sub
+   - in
  - other:
    - super: abl. or acc.
-   - sub: abl. with verbs or rest, acc. with verbs of motion
 
  
 #### Pronoun
