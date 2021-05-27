@@ -49,6 +49,21 @@
    - tuus, tua, tuum: adj. your, used when speaking to only one person
    - vester, vestra, vestrum: your (pl. used in addressing more than one person)
 
+#### Easy-to-forget words
+ - igitur: therefore, consequently
+ - propter: on account of, because of
+ - quandō: when
+ - sī quandō: if ever
+ - tum: then, at that time, thereupon, in the next place
+ - quārē: lit. because of which thing, but more commonly therefore, wherefore, why
+ - dum: while, as long as, at the same time that, until
+ - numquam: never
+ - tamen: nevertheless, still
+ - enim: for, in fact, truly
+ - nimis, nimium: too, too much, excessively, exceedingly
+ - quoniam: since, inasmuch as
+ - cum: with
+
 #### Important endings
 
  - Present, future, imperfect indicative active of laudā (first & second conjugations)
