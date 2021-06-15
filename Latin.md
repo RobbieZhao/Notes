@@ -63,6 +63,10 @@
  - nimis, nimium: too, too much, excessively, exceedingly
  - quoniam: since, inasmuch as
  - cum: with
+ - quod: because
+ - autem: however, moreover
+ - etiam: even, also
+
 
 #### Important endings
 
