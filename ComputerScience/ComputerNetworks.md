@@ -279,3 +279,65 @@ Application layer protocols:
 
 Network layer: IP, unreliable
  - Forwarding table
+
+## Network layer
+
+ - **data plane**: forwarding. implemented at hardware. done in nanoseconds. per-router function. Determines how datagram arriving on router input port is forwarded to router output port
+ - **control plane**: routing. implemented in software. done in seconds. network-wide logic. Determines how datagram is routed among routers along end-to-end path from source host to destination host
+   - traditional routing algorithms. implemented in routers
+   - software-defined networking (SDN). implemented in (remote) servers
+ - network layer protocols in every internet device (the routers won't have application layer protocol or transport layer protocol)
+ - routers: check header fields in all IP datagrams and forwarding them
+   - switching fabric: all packets go through this
+   - routing processor:
+ - best-effort service model
+
+
+forwarding:
+
+ - longest prefix matching: most specific matching
+ - packet scheduling:
+   - FCFS
+   - priority
+   - round robin
+   - weighed fair queueing: generalized round robin 
+
+### IP
+
+ - IP address: 32-bit identifier associated with each host or router interface
+   - subnet part: devices in same subnet have common high order bits
+   - host part: remaining low order bits
+ - subnet: device interfaces that can physically reach each other without passing through an intervening router
+ - CIDR: Classless InterDomian Routing.
+   - subnet mask: 224.1.1.0/x x is the # bits in subnet portion of address
+ - how does a host get an IP address?
+   - DHCP: Dynamic Host Configuration Protocol
+   - allocated by its server
+ - how does network get subnet part of IP addr?
+   - by its ISP
+ - NAT: network address translation
+   - all devices in a local network share an IP address
+ - transition from ipv4 to ipv6: tunneling
+
+### Routing:
+
+ - algorithms:
+   - link state: global, centralized, dijstra
+   - distance vector: decentralized
+     - bellman-ford
+     - from time to time, each node sends its own distance vector estimate to neighbors
+     - when x receives new distance vector using B-F equation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
