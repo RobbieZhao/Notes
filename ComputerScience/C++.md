@@ -1,8 +1,19 @@
+ - c++ is a statically typed language: the types are checked at compile time
  - The return type of `main` has to be `int`
  - check [GCC manual](https://gcc.gnu.org/onlinedocs/) to find the default standard of C++
  - `#include` directive must appear outside any function
  - `::` scope operator
  - Headers from the standard library are enclosed in angle brackets `< >`. Those that are not part of the library are enclosed in double quotes `" "`
+
+
+## Variables
+ - initialization is not assignment
+   - initialization: a variable is given a value when it is created
+   - assignment: obliterates an object's current value and replaces that value with a new one
+ - variables of built-in type that are not explicitly initialized
+   - defined outside any function body: are initialized to zero
+   - inside a function: uninitialized (undefined)
+ - it is an error to provide an initializer on an extern inside a function
 
 ## `iostream` library
 
