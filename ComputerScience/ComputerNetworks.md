@@ -328,7 +328,18 @@ forwarding:
      - from time to time, each node sends its own distance vector estimate to neighbors
      - when x receives new distance vector using B-F equation
 
+Intra-domain routing
 
+ - Autonomous systems (AS/domains)
+ - intra-AS: all routers in AS must run the same intra-domain protocol
+   - RIP: Routing information protocol. Distance vector algorithm
+   - OSPF: Open Shortest path first. Link state algorithm
+   - EIGRP: DV
+ - gateway router
+
+inter-AS
+
+ - BGP: Border Gateway Protocol 
 
 
 

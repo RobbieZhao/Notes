@@ -58,7 +58,7 @@ READY: 1/1 there's one copy of the pod trying to be executed, and one copy succe
 		  name: posts-depl
 		spec:
 		  replicas: 1              # number of pods
-		  selector:                # tell kubernetes the info about the pods that we want it to manage
+		  selector:                # tell kubernetes the info about the pods that we want it to manage (how to find the pods)
 		    matchLabels:           # the pods will have labels described by the following line
 		      app: posts           # This can be done randomly
 		  template:                # config info about the pod
@@ -201,6 +201,8 @@ k8s is short for kubernetes
 
  - `skaffold dev`
                     
+#### Secrets
 
-
-
+ - `kubectl get secrets`
+ - `kubectl delete secret secret-name`
+ - `kubectl create secret generic jwt-secret --from-literal=JWK_KEY=asdf`
