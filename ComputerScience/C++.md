@@ -14,6 +14,11 @@
    - defined outside any function body: are initialized to zero
    - inside a function: uninitialized (undefined)
  - it is an error to provide an initializer on an extern inside a function
+ - `::name` fetch the name on the right hand side from the global scope (the global scope has no name)
+ - declaration: 
+   - base type
+   - declarators: names a variable and gives the variable a type that is related to the base type
+ - A reference must be initialized
 
 ## `iostream` library
 
