@@ -19,6 +19,11 @@
    - base type
    - declarators: names a variable and gives the variable a type that is related to the base type
  - A reference must be initialized
+ - It is illegal to assign an int variable to a pointer, even if the variable's value happens to be 0
+
+        int *p = 0;     // OK equivalent to int *p = nullptr
+        int zero = 0;
+        int *p = zero   // Error   
 
 ## `iostream` library
 
