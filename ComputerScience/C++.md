@@ -24,6 +24,11 @@
         int *p = 0;     // OK equivalent to int *p = nullptr
         int zero = 0;
         int *p = zero   // Error   
+ - const
+   - reference to const: cant change the object through the reference
+   - pointer to const: cant change the object througth the pointer
+   - const pointer: cant change the pointer itself.
+ 
 
 ## `iostream` library
 
