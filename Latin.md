@@ -27,6 +27,7 @@
    - in
    - ex or ē
    - cum
+   - prō
  - +acc.
    - propter
    - post
@@ -66,6 +67,8 @@
  - quod: because
  - autem: however, moreover
  - etiam: even, also
+ - diū: long, for a long time
+ - nūper: recently
 
 
 #### Important endings
