@@ -32,6 +32,8 @@
    - propter
    - post
    - ad
+   - ante
+   - per
  - abl. with verbs or rest, acc. with verbs of motion
    - sub
    - in
@@ -69,6 +71,8 @@
  - etiam: even, also
  - diū: long, for a long time
  - nūper: recently
+ - nam: for
+ - ōlim: once, long ago, formerly; some day, in the future
 
 
 #### Important endings
