@@ -10,9 +10,11 @@
  - initialization is not assignment
    - initialization: a variable is given a value when it is created
    - assignment: obliterates an object's current value and replaces that value with a new one
- - variables of built-in type that are not explicitly initialized
-   - defined outside any function body: are initialized to zero
-   - inside a function: uninitialized (undefined)
+ - uninitialized variables
+     - built-in type
+       - outside any function: initialized to zero
+       - inside a function: uninitialized (undefined)
+     - class: depends on the class
  - it is an error to provide an initializer on an extern inside a function
  - `::name` fetch the name on the right hand side from the global scope (the global scope has no name)
  - declaration: 
