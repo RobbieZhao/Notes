@@ -271,9 +271,9 @@ block element will take the larger margin of the two neighbors, but inline eleme
 `Span` is inline
 
 
-img {
-  display: block/inline/inline-block;
-}
+    img {
+      display: block/inline/inline-block;
+    }
 
 #### float a element
 
