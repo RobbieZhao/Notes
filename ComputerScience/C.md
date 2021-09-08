@@ -9,3 +9,8 @@ Compilation of C programs:
  - Linking
    - static linking
    - dynamic linking
+
+Scope vs extent:
+
+ - scope: where in the program this variable is available for use
+ - extent: how long it exists
