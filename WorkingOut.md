@@ -16,3 +16,18 @@ A boiled, large (50g) egg
 References:
 
  - [Workout Nutrition: What and When You Should Eat to Build Muscle](https://www.menshealth.com/nutrition/a19515619/workout-nutrition-for-muscle-building/)
+
+
+
+
+**ABS Plans**
+
+4 reps til failure
+
+ - abs
+   - situps
+   - leg raises  
+   - plank
+ - obliques
+   - dumbbell side bends
+   - side bends on bench
