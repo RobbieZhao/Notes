@@ -19,10 +19,13 @@ Three states
  - staging area
  - committed
 
+
 Commands
 
     git add -A (all files)
     
+    // Discard all unstaged files in the current working directory
+    git checkout -- .
     
     git reset
     git reset filename
@@ -112,11 +115,30 @@ Commands
     
     # delete all stashes
     git stash clear
+
+## Branching
+
+    # make a new branch
+    git branch <branch-name>
+    
+    # switch to another branch
+    git checkout <branch-name>
+    
+    # make a new branch and check it out at the same time
+    git checkout -b <branch-name>
+    
+    # branch forcing
+    git branch -f main HEAD~3
     
 ## merge
 
-    git merge <branch>
-    git commit
+    # merge the branch with main branch
+    git checkout <branch-name>
+    git merge main
+
+## Reverting changes
+
+    git reset HEAD~1
 
 ## add
 
