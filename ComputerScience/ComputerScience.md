@@ -31,3 +31,9 @@
  - If you only want to draw one graph, both are acceptable; If you want to draw multiple graphs, then you almost certainly want to use `ax`.
  - `plt` creates a `figure` object and an `axes` object inside `figure` object. 
  - `plt.subplots()` returns the `figure` object and the `axes` object so that we could do more things to them.
+
+
+
+[Hash functions](http://www.cse.yorku.ca/~oz/hash.html)
+
+[MIPS Reference Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_help.html)

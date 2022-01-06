@@ -33,7 +33,7 @@ Everything is a number
  
 **How to know if there is an overflow?**
 
- - If the carry in and carry out of the most significant bit are the same, then there is overflow.
+ - If the carry in and carry out of the most significant bit are the same, then there is no overflow.
  - If they are not the same, then there is an overflow.
  - overflow: numbers are too large to represent
  - underflow: numbers are too small to represent
@@ -226,8 +226,8 @@ Everything is a number
 
  - internal register inside the processor
  - instruction is fetched from memory, then control unit executes instruction using datapath and memory system, and updates program counter
- - processor
-   - control
+ - processor: the brain of the computer
+   - control: the brain of the processor. Tells the datapath what needs to be done
    - datapath
      - PC
      - registers
@@ -344,3 +344,55 @@ Object file format (Standard format: ELF, executable linker format):
  - relocation information: identifies lines of code that need to be fixed up later
  - symbol table: list of this file's labels and static data that can be referenced
  - debug information: points from machine code to original c code
+
+## Synchronous Digital Systems
+
+The hardware of a process if an example of a **Synchronous Digital System**
+
+ - synchronous: all operations coordinated by a central clock
+ - digital: 1 and 0 (as opposed to analog systems, where signals can take any values within a range)
+
+The switches: CMOS transistors
+
+- CMOS: Complementary Metal-Oxide on Semiconductor
+  - C: two kinds of transistors
+    - one is on if the control terminal is one (n-channel transistor)
+    - the other is off if the control terminal is one (p-channel transistor)
+
+Boolean algebra
+
+ - some formulas
+   - x̄Y + X = X + Y
+   - proof: (x + y)(x + z) = x + yz. so x + y = (x + y)(x + x̄) = x + x̄y
+
+Types of circuits
+
+ - combinational logic (CL) circuits: output is a function of the inputs
+ - sequential logic (SL): circuits that remember or store info, e.g. memories and registers
+
+Delays:
+
+- clock-to-q delays: delay from when the clock edge rises to q (output) reflects the new input
+- CL delay: delay to propagate through the logic gates
+- setup time: the time before the clock edge that the input has to be stable
+- hold time: the time after the clock edge that the input has to be stable
+
+Building standard functional units
+
+- Data multiplexers: 2 inputs and a select signal
+- arithmetic and logic unit
+- can be built with a mux 
+- adder/subtracter
+
+**Five stages of instruction execution**
+
+- instruction fetch
+  - fetch instruction from the memory space into the control unit
+  - increment PC 
+  - every instruction goes through this
+- instruction decode
+  - read the opcode to determine instruction type and field lengths
+  - read in data from all necessary registers
+- ALU: execution
+- memory access: only for loads and stores
+- register write

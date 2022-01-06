@@ -39,3 +39,8 @@ Scope vs extent:
  - `~` bitwise not
  - `!` 0 -> 1; non-zero -> 0
  - `^` xor. return 1 if different, 0 otherwise. exclusive or is commutative and associative
+
+
+printf
+
+ - descriptors: %s, %d 
