@@ -37,3 +37,5 @@
 [Hash functions](http://www.cse.yorku.ca/~oz/hash.html)
 
 [MIPS Reference Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_help.html)
+
+[Arrange Act Assert](https://wiki.c2.com/?ArrangeActAssert)
