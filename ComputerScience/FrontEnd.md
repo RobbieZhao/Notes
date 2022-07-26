@@ -340,12 +340,20 @@ vertical-align?
       display: table-cell
     }
 
+**table and borders**
+
+- `border-radius` has not effect on tables with `border-collapse: collapse;`
+- you can't set border-radius on 
+
 style.visibility = "hiddle"
 
 ### CSS Layouts
 
  - fluid
  - fixed
+
+
+### 
 
 
 ## Javascript
@@ -490,10 +498,14 @@ confirm("text"): returns a boolean
 
 Redirect to a new page: window.location = "newpage.html";
 
+## Misc
+
+#### Can you add borders to a thead or tr? 
+
+Yes, you can. But the `border-collapse` attribute has to be `collapse` then. Also to note is once it's set to `collapse`, everything on the 
 
 
-
-
+What is presentation attribute?
 
 
 

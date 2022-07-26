@@ -49,9 +49,3 @@ honda
 - 别克
 - 悍马
 - 吉普
-
-Toyota
-
-- Corolla
-  - SE
-  - LE
