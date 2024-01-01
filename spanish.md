@@ -4,7 +4,6 @@
 - (Yo) soy: I am
 - no soy: I am not
 
-
 - un: m. a
 - una: f. a
 
@@ -25,7 +24,6 @@
 
 - gracias
 - muchas gracias
-
 
 - posible
 - imposible
@@ -48,6 +46,7 @@
 - lo siento: I am sorry (I feel it)
 - pero: but
 - (yo) tengo: I have
+
   - no tengo: I don't have
   - lo tengo: I have it
 
@@ -92,6 +91,7 @@
 - sé que: I know that
 
 - un ordenador: a computer
+  - ordenadores
 - una computadora: a computer (AmL)
 
 - mi: my
@@ -101,6 +101,7 @@
 - no: no
 
 poder: to be able
+
 - puedo: I can
 - puedes: you can
 - puede
@@ -117,7 +118,7 @@ poder: to be able
 - o: or
 
 - el/la grande: the big one
-- un teléfono: a telephone 
+- un teléfono: a telephone
 
 - Dónde está?: where is it?
 
@@ -125,8 +126,9 @@ poder: to be able
 - eso: that
 
 For physical location/temporary situations:
+
 - estoy: I am.
-- estás: you are. 
+- estás: you are.
 - está: it is.
 - estamos
 
@@ -178,6 +180,7 @@ saber: to know
 # hacer: to do
 
 ## Present
+
 - hago
 - haces
 - hace
@@ -186,6 +189,7 @@ saber: to know
 - hacen
 
 ## Future
+
 - haré
 - harás
 - hará
@@ -201,6 +205,7 @@ saber: to know
 # comer:
 
 ## Present
+
 - yo como: I eat
 - tú comes: you eat
 - él/ella come: he/she eats
@@ -209,9 +214,10 @@ saber: to know
 - comen
 
 ## Future
+
 - comeré
-- 
-- 
+-
+-
 - comeremos
 
 - come: eat!
@@ -220,7 +226,7 @@ saber: to know
 
 - comiendo
 
-cenar: 
+cenar:
 
 - yo ceno: I have dinner
 - tú cenas: you have dinner
@@ -231,6 +237,7 @@ cenar:
 # salir: to leave
 
 ## Present
+
 - salgo: I leave
 - sales: you leave
 - sale: he/she leaves
@@ -247,7 +254,6 @@ cenar:
 - saldréis
 - saldrán
 
-
 - saliendo: leaving
 - sal: leave!
 - no salgas: don't leave!
@@ -255,14 +261,18 @@ cenar:
 # tener: to have
 
 ## Present
+
 - tengo
 - tienes
 - tiene
 - tenemos
 - tenéis
 - tienen
+- ten!
+- no tengas!
 
 ## Future
+
 - tendré
 - tendrás
 - tendrá
@@ -287,7 +297,6 @@ cenar:
 - estaréis
 - estarán
 
-
 necesitar: to need
 
 - necesito
@@ -297,7 +306,9 @@ necesitar: to need
 - necesitáis
 - necesitan
 
-ver: to see
+# ver: to see
+
+## Present
 
 - veo
 - ves
@@ -306,6 +317,14 @@ ver: to see
 - veis
 - ven
 
+## Future
+
+- veré
+- verás
+- verá
+- veremos
+- veréis
+- verán
 
 - puedo
 - puedes
@@ -323,6 +342,7 @@ querer: to want
 # ser: to be. identity
 
 ## Present
+
 - soy
 - eres
 - es
@@ -339,12 +359,10 @@ querer: to want
 - seréis
 - serán
 
-
 - español: Spanish language
 - español/española: nationality
 - británico/británica: British
 - americano/americana: American
-
 
 - verb + me: me
 - verb + te: you
@@ -352,6 +370,7 @@ querer: to want
 # decir: to say/tell
 
 ## Present
+
 - digo
 - dices
 - dice
@@ -360,6 +379,7 @@ querer: to want
 - dicen
 
 ## Future
+
 - diré
 - dirás
 - dirá
@@ -383,7 +403,8 @@ comprender: to understand
 # comprar: to buy
 
 ## Present
-- compro 
+
+- compro
 - compras
 - compra
 - compramos
@@ -391,8 +412,12 @@ comprender: to understand
 - compran
 
 ## Future
+
 - compraré
 
+## past
+
+- compré
 
 - compra: buy!
 - no lo compres: don't buy it!
@@ -416,7 +441,7 @@ llamar: to call
 - llama
 
 - llames: don't call
-- Llámame!: Call me!
+- llámame!: Call me!
 - llámalo: call him!
 - llámala: call her!
 
@@ -425,6 +450,7 @@ llamar: to call
 # poner: to put
 
 ## Present
+
 - pongo
 - pones
 - pone
@@ -433,6 +459,7 @@ llamar: to call
 - ponen
 
 ## Future
+
 - pondré
 - pondrás
 - pondrá
@@ -444,7 +471,6 @@ llamar: to call
 - ponlo: put it!
 - no pongas: don't put!
 - poniendo: putting
-
 
 - vas a: are you going to?
 - va a: he/she/it is going to
@@ -464,16 +490,19 @@ llamar: to call
 - conmigo: with me
 - contigo: with you
 
-# hablar: to speak
+# hablar: to speak/talk
 
 ## present
+
 - hablo
 - hablas
 - habla
 - hablamos
 - habláis
 - hablan
+
 ## future
+
 - hablaré
 - hablarás
 - hablará
@@ -481,9 +510,20 @@ llamar: to call
 - hablaréis
 - hablarán
 
+## past
+
+- hablé
+- hablaste
+- (él/ayer)habló
+- hablamos
+- hablasteis
+- (ellos/ayer)hablaron
+
 - habla!: speak!
 - no hables: don't speak!
 - hablando: speaking
+- speak about: hablar de
+
 - inglés: english, language, nationality
 
 - con él: with him
@@ -505,10 +545,11 @@ venir: to come
 # ir: to go
 
 ## Present
+
 - voy
 - vas
 - va
-- vamos: 
+- vamos:
 - vais
 - van
 
@@ -521,8 +562,6 @@ venir: to come
 - iréis
 - irán
 
-
-
 - ir a hacer algo: to go and do something
 
 irse: to leave/go away
@@ -530,6 +569,7 @@ irse: to leave/go away
 # vender: to sell
 
 ## Present
+
 - vendo
 - vendes
 - vende
@@ -538,6 +578,7 @@ irse: to leave/go away
 - venden
 
 ## Future
+
 - venderé
 
 - véndelo: sell it!
@@ -567,16 +608,21 @@ irse: to leave/go away
 
 - un libro: a book
 - este/esta: this
+  - este -> estos
+  - esta -> estas
 - ese/esa: that
+  - esos
 
 - un hombre: a man
-- una mujer: a woman 
+- una mujer: a woman
+
   - mujeres
 
-- nosotros/nosotras: we 
+- nosotros/nosotras: we
 
-- demasiado: too 
+- demasiado: too
 - una habitación: a room
+  - habitaciones
 - una televisión: a television
 
 vivir: to live
@@ -610,7 +656,7 @@ dar: to give
 - da: give!
 - dame: give me!
 
-- tú: you. Informal 
+- tú: you. Informal
 - usted: you. formal (third person)
 
 empezar: to start
@@ -697,7 +743,7 @@ levantar: to lift/raise up
 - naranja: orange
 - marrón: brown
 - rosa: pink
- 
+
 - Qué tal?: how are you/how is it going
 - Cómo te llamas: what's your name (how do you call yourself)
 - Me llamo David: My name is David (I call myself David)
@@ -723,6 +769,11 @@ llegar: to arrive/to get to
 - llegan
 - llegando: arriving
 
+## past
+- llegué
+
+- lleguó
+
 - a la una: at one o'clock (at the one)
 - a las dos: at two o'clock
 
@@ -742,12 +793,13 @@ llegar: to arrive/to get to
 - una playa: a beach
   - playas
 - de: of
-- cerca de: near 
+- cerca de: near
 - cerca del: near the (m.)
 - cerca de la: near the (f.)
 - su coche: his/her car
 
 querer decir: to mean: to want to say
+
 - Qué quiere decir "feliz": What does "feliz" mean?
 - Feliz quiere decir "happy": "feliz" means happy
 - una palabra: a word
@@ -766,12 +818,11 @@ escribir: to write
 - no escribas: don't write!
 - escribiendo
 
-
 quedarse: to stay/to maintain
 
 - quedo
 - quedas
-- 
+-
 - quedamos
 - quedáis
 - quedan
@@ -798,6 +849,11 @@ trabajar: to work
 traer: to bring
 
 - traigo
+- traes
+- trae
+- traemos
+- traéis
+- traen
 
 - tráelo: bring it!
 - no traigas: don't bring!
@@ -815,6 +871,7 @@ traer: to bring
 ## Present
 
 ## Future
+
 - esperaré
 -
 -
@@ -832,8 +889,11 @@ traer: to bring
 - una hora: a hour
 
 - la semana que viene: next week (the week that's coming)
+- la semana pasada: last week
 - un año: a year
 - el año que viene: next year
+- el mes pasado: last month
+- el año pasado: last year
 
 - más que: more than
 - menos que: less than
@@ -853,7 +913,7 @@ article the
 
 perdonar
 
-- 
+-
 
 - un tren: a train
 - un bus/un autobús: a bus
@@ -871,7 +931,6 @@ dejar: to leave (something behind)
 - no lo dejes: don't leave it!
 
 beber: to drink
-
 
 - beben
 - no lo bebas: don't drink it!
@@ -975,7 +1034,7 @@ dormir: to sleep
 - caliente: hot (adj.)
 - frío/fría: cold (adj.)
 
-coger: to take
+coger: to take/get
 
 - cojo
 - coges
@@ -984,11 +1043,12 @@ coger: to take
 - cogéis
 - cogen
 - cógelo: take it!
-- no lo cogas: don't take it!
+- no lo cojas: don't take it!
 
-- la gente(sg.): people 
+- la gente(sg.): people
+- una persona: a person
 
-acabar de + infinitive: to have just done something
+acabar de + infinitive: to have just done something (to finish)
 
 - acabo
 - acabas
@@ -1004,6 +1064,7 @@ todavía: yet
 # tomar: to have (eat or drink)/ to take
 
 ## Present
+
 - tomas
 
 ## Future
@@ -1023,9 +1084,196 @@ todavía: yet
 - un vaso de agua: a glass of water
 - vino tinto: red wine (dark colored wine)
 - vino blanco: white wine
+- sin: without
+
+leer: to read
+- leo: read
 
 
-reflexive: 
+- madre: mother
+- padre: father
+- padres: parents
+- hermano: brother
+- hermana: sister
+- hijo: son
+- hija: daughter
+- hijos: children
+- esposo/marido: husband
+- esposa/mujer: wife
+
+- a: used when direct object is a person
+- viejo/vieja: old
+- joven: young
+  - jóvenes
+
+- otro/otra: another
+- un idioma: a language
+
+- lo: article before a abstract adj., a adj. thing
+- mismo/misma: same
+  - lo mismo: the same thing
+
+- cada día: every day
+- a la misma hora: at the same time
+- el mismo que/la misma que/lo mismo que
+
+- nice (person): simpático/simpática
+- strong: fuerte
+
+escuchar: to listen (to)
+
+ - escucho
+ - escuchas
+ - escucha
+ - escuchamos
+ - escucháis
+ - escuchan
+ - escuchando
+
+perder: to lose
+
+ - pierdo
+ - pierdes
+ - pierde
+ - perdemos
+ - perdéis
+ - pierden
+
+- perder el tiempo: to waste time (to lose time)
+- luego: later/then
+- algunos: a few
+- algunos...otros...: some...others...
+
+- aburrido/a: boring
+- una lección: a lesson
+  - lecciones
+
+abrir: to open
+
+- abro
+- abres
+- abre
+- abrimos
+- abrís 
+- abren
+
+- página: page
+- una tienda: a shop
+
+- en/sobre: on
+- sobre las seis: at about six o'clock
+- como: like
+- un caballo: a horse
+- nadie: nobody
+
+- antes de: before
+- después de: after
+- almuerza: have lunch
+- un poco: a little
+  - un poco de: a little + n.
+
+- otra vez: another time
+
+haber + particle: I have done  
+
+- he
+- has
+- ha
+- hemos
+- habéis
+- han
+
+terminar: to finish
+
+mandar: to send
+
+- un mensaje: a message
+- mejor: better
+
+creer: to think, believe
+
+- creo
+- crees
+- cree
+- creemos
+- creéis
+- creen
+
+- me parece que: it seems to me that
+
+parecer: to seem
+
+- me interesa: it interests me
+
+- 
+- 
+- interesa
+- 
+- 
+- interesan
+
+- no me importa: it's not important to me
+importar: to matter, to be important
+
+- un curso: a course
+- un trabajo: a job
+- verdad: true
+- la verdad: the truth
+- todo el mundo: everybody
+- una idea: an idea
+  - una buena idea
+  - una mala idea
+
+estudiar: to study
+
+- tanto como: as much as
+  - tantos como: as many as
+- alguien: somebody, anybody
+- nunca: never
+- un amigo/una amiga
+
+preguntar: to ask
+- preguntarse: to wonder (to ask oneself)
+- pregunta: question
+- tener ganas de hacer algo: to feel like doing something
+- a veces: sometimes
+- siempre: always
+- hasta: until
+- prestar: to lend
+
+- de la noche: at night
+
+mirar: to look, to watch
+
+- todos: everybody
+- quién: who
+
+- vale: okay
+- una puerta: a door
+- una ventana: a window
+- una persona: a person
+
+visitar: to visit
+
+- un país: a country
+  - países
+- la cuenta: the check/the bill
+
+pagar: to pay
+
+## past
+
+- pagué
+
+- para: to
+- hace: ago
+  - hace un año
+- un minuto: a minute
+- estoy de acuerdo: I agree
+- ayer: yesterday
+- otra cosa: something else
+
+reflexive:
 
 - me
 - te
@@ -1052,7 +1300,7 @@ prepositional pronouns
 - vosotros/vosotras/ustedes
 - ellos/ellas
 
-object
+direct object
 
 - me
 - te
@@ -1061,15 +1309,43 @@ object
 - os
 - los/las
 
-possessive
+indirect object
+
+- me
+- te
+- le(se)
+- nos
+- os
+- les(se)
+
+# possessive
+
+## sg.
 
 - mi
 - tu
 - su
+- nuestro/nuestra
+- vuestro/vuestra
+- su
 
+## pl.
 
+- mis
+- tus
+- sus
+- nuestros/nuestras
+- vuestros/vuestras
+- sus
 
-R 
+words ending in a vowel are stressed on the second last syllable
+When a word is stressed on another syllable, a written accent is required to show the irregularity
+
+- words ending in a vowel or an -n or -s are stressed on th second to last scyllable
+- wors ending in consonants other than -n or -s are stressed on the last scyllable
+
+R
+
 - The flipped R
 - rolled or trilled R
 
@@ -1077,17 +1353,18 @@ The letter C is softened by E and I.
 In Latin American countries the softened C is pronounced as S.
 
 How to type:
+
 - accent: option + e, release, type the character
 - reverse symbols: shift + option + letter
+- ñ: option + n + n
 
 ar
 er
 ir
 
-
 Como más que tú: I need more than you. Why tú instead of ti?
 
-
+Me ha preguntado si puedo darle el dinero hoy
 
 # Sentences
 
@@ -1187,7 +1464,7 @@ Quiero una cerveza, por favor.
 
 ¡Perdone! El café no es para mí.
 
-Soy malo. 
+Soy malo.
 
 Soy mala.
 
@@ -1496,41 +1773,3 @@ No es posible aquí.
 Es malo aquí.
 
 Es muy bueno allí.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
