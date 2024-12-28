@@ -615,7 +615,6 @@ irse: to leave/go away
 
 - un hombre: a man
 - una mujer: a woman
-
   - mujeres
 
 - nosotros/nosotras: we
@@ -1111,7 +1110,7 @@ leer: to read
 
 - lo: article before a abstract adj., a adj. thing
 - mismo/misma: same
-  - lo mismo: the same thing
+  - lo mismo/la misma cosa: the same thing
 
 - cada día: every day
 - a la misma hora: at the same time
@@ -1128,6 +1127,7 @@ escuchar: to listen (to)
  - escuchamos
  - escucháis
  - escuchan
+ - escúchame!
  - escuchando
 
 perder: to lose
